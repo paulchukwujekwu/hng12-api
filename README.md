@@ -38,6 +38,6 @@
 
    ## Deployment
 
-   The API is deployed at [your-deployment-url].
+   The API is deployed at [https://hng12-api-2vju.onrender.com].
 
    ## Related Link
