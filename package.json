@@ -6,11 +6,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Paul Chukwujekwu",
   "license": "ISC",
-  "description": "",
+  "description": "This is a simple project on public API that returns the following in JSON format:\n\n1. My registered email address (used to register on the HNG12 Slack workspace).\n2. The current datetime as an ISO 8601 formatted timestamp.\n3. The GitHub URL of the project's codebase.",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
