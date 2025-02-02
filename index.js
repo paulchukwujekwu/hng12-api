@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     const response = {
         email: "paulchukwu2001@gmail.com",
         current_datetime: new Date().toISOString(),
-        github_url: "https://github.com/yourusername/your-repo"
+        github_url: "https://github.com/paulchukwujekwu/hng12-api"
     };
     res.json(response);
 });
