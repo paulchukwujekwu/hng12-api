@@ -1,8 +1,14 @@
 import express from 'express';
-const cors = require('cors');
+import cors from 'cors';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 const app = express();
-app.use(cors());
 const port = process.env.PORT || 3000;
+
+app.use(cors());
+app.use(express.json());
 
 app.get('/', (req, res) => {
     const response = {
@@ -14,5 +20,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`API is running on http://localhost:${port}`);
+    console.log(`Server is running on http://localhost:${port}`);
 });
